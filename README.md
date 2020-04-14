@@ -1,2 +1,5 @@
-# studiovictoria_mp1
-User Centric Frontend Development Milestone Project - Studio Victoria
+# Studio Victoria - User Centric Frontend Development Milestone Project
+
+## HTML5 + CSS3 + Bootstrap4
+
+
