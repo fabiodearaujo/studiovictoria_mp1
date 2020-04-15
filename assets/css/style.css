@@ -11,3 +11,23 @@
 .logo-font span {
     font-size: x-small;
 }
+
+.navbar-center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Hero Styles */
+
+.hero-image {
+    background-image: url("/assets/img/silvestre-leon-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-color: lightcoral;
+    color: #ffffff;
+    font-family: "Monoton", cursive;
+    text-align: center;
+}
