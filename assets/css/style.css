@@ -12,7 +12,7 @@
 
 .navbar-center {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 /* Hero Styles */
@@ -69,16 +69,6 @@
     }
 }
 
-@media screen and (min-width: 490px) {
-    .hero-image h1 {
-        font-size: 4.5em;
-    }
-    
-    .hero-image p {
-        font-size: 1.5em;
-    }
-}
-
 
 
 /* Footer Styles */
@@ -90,19 +80,129 @@
 }
 
 .footer-contact {
-    background-color: cyan;
+    background-color: rgb(54, 54, 54);
+    color: #ffffff;
     height: 60px;
-    width: 50%;
+    width: 100%;
+    border-right-color: #fff;
+    border-right-width: 20px;
+    text-align: center;
+}
+
+.footer-contact a {
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding-top: 4px;
+    
+}
+
+.footer-contact a:hover, .social-element a:hover {
+   color: #696969;
+   text-decoration: none;
 }
 
 .footer-social {
-    background-color: darkcyan;
+    background-color: rgb(54, 54, 54);
+    color: #ffffff;
     height: 60px;
-    width: 50%;
+    width: 100%;
+    border-left-color: #fff;
+    border-left-width: 20px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.social-element {
+    font-family: "Montserrat", sans-serif;
+    font-size: 7px;
+    text-decoration: none;
+    margin-bottom: 0;
+    margin-right: 10px;
+    padding-top: 16px;
+}
+
+.social-element i {
+    font-size: large;
+    color: #ffffff;
+}
+
+.social-element a {
+    color: #ffffff;
 }
 
 .footer-copyright {
-    height: 20px;
+    margin-bottom: 0;
+    padding: 3px;
+    height: 100%;
     width: 100%;
     background-color: black;
+    color: #8d8b8b;
+    text-align: center;
+    font-size: 10px;
 }
+
+.footer-copyright p {
+    margin-bottom: 0;
+}
+
+
+
+/* Responsive design - Mobile first  */
+
+@media screen and (min-width: 580px) {
+    .hero-image h1 {
+        font-size: 4.5em;
+    }
+    
+    .hero-image p {
+        font-size: 1.5em;
+    }
+
+    .footer-contact {
+        width: 50%;
+    }
+
+    .footer-contact a {
+        font-size: 12px;
+              
+    }
+
+    .footer-social {
+        width: 50%;
+    }
+
+    .social-element{
+        font-size: 12px;
+        margin-left: 10px;
+    }
+    
+    .social-element i {
+        font-size: large;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+    .footer-contact a {
+        font-size: 15px;
+              
+    }
+
+    .social-element{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    
+    .social-element i {
+        font-size: x-large;
+    }
+}
+
+
+
