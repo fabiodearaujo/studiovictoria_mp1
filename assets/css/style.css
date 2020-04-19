@@ -153,6 +153,34 @@
 
 
 
+/* About Styles */
+
+#about {
+    height: 800px;
+    width: 100%;
+    background-color: rgb(111, 111, 111);
+    font-family: "Montserrat", sans-serif;
+}
+
+.about-history {
+    padding: 50px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about-history h1 {
+    padding: 20px;
+    
+}
+
+.card-container {
+    position: relative;
+    padding: 50px;
+}
+
+
+
+
 /* Responsive design - Mobile first  */
 
 @media screen and (min-width: 580px) {
