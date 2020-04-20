@@ -163,7 +163,7 @@
 }
 
 .about-history {
-    padding: 50px;
+    padding: 50px 50px 20px 50px;
     color: #ffffff;
     text-align: center;
 }
@@ -175,9 +175,12 @@
 
 .card-container {
     position: relative;
-    padding: 50px;
+    padding: 20px 50px 50px 50px;
 }
 
+.card-img-top {
+    height: 250px;
+}
 
 
 
