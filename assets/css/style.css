@@ -22,7 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    height: 800px;
+    height: 100%;
     width: 100%;
     color: #ffffff;
     font-family: "Monoton", cursive;
@@ -37,7 +37,7 @@
 }
 
 #hero-animation {
-    height: 800px;
+    height: 50em;
     width: 100%;
     overflow: hidden;
 
@@ -156,30 +156,38 @@
 /* About Styles */
 
 #about {
-    height: 800px;
+    height: 100%;
     width: 100%;
     background-color: rgb(111, 111, 111);
     font-family: "Montserrat", sans-serif;
 }
 
 .about-history {
-    padding: 50px 50px 20px 50px;
+    padding: 20px;
     color: #ffffff;
     text-align: center;
 }
 
-.about-history h1 {
-    padding: 20px;
-    
+.about-history p {
+    margin-bottom: 0;
 }
 
-.card-container {
-    position: relative;
-    padding: 20px 50px 50px 50px;
+.my-card-container {
+    margin: 0;
+}
+
+.card {
+    margin: 10px;
 }
 
 .card-img-top {
-    height: 250px;
+    height: 60%;
+    width: 100%;
+}
+
+.divisor {
+    height: 1em;
+    width: 100%;
 }
 
 
@@ -216,6 +224,26 @@
     .social-element i {
         font-size: large;
     }
+    
+    #about {
+        height: 100%;
+        
+    }
+    .about-history {
+        padding: 50px;
+    }
+
+    .my-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .card {
+        max-width: 500px;
+    }
+
 }
 
 @media screen and (min-width: 900px) {
@@ -233,7 +261,20 @@
     .social-element i {
         font-size: x-large;
     }
+
+    .about-history {
+        padding: 50px 150px 50px 150px;
+    }
 }
 
+@media screen and (min-width: 1500px) {
+    
+    .about-history {
+        padding: 50px 250px 50px 250px;
+    }
 
+    .divisor {
+        height: 2.85em;
+    }
+}
 
