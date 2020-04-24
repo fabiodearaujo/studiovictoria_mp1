@@ -1,10 +1,10 @@
-/* Logo Font imported from Google Fonts */
+/* ----------------------------------------------------------------------------------------------- Logo Font imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
 
 
 
 
-/* Navbar Styles */
+/* ----------------------------------------------------------------------------------------------- Navbar Styles */
 .logo-font {
     font-family: 'Monoton', cursive;
     font-weight: 100;
@@ -15,7 +15,7 @@
     justify-content: space-around;
 }
 
-/* Hero Styles */
+/* ----------------------------------------------------------------------------------------------- Hero Styles */
 
 .hero-image {
     background-image: url("https://fabioaraujo76.github.io/studiovictoria_mp1/assets/img/silvestre-leon-unsplash.jpg"); 
@@ -59,7 +59,7 @@
     background-color: rgba(157, 157, 157, 0.7);
 }
 
-/* Zoom effect idea taken from Love Run website on the course */
+/* ----------------------------------------------------------------------------------------------- Zoom effect idea taken from Love Run website on the course */
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -71,7 +71,7 @@
 
 
 
-/* Footer Styles */
+/* ----------------------------------------------------------------------------------------------- Footer Styles */
 
 .footer-container {
     display: flex;
@@ -153,7 +153,7 @@
 
 
 
-/* About Styles */
+/* ----------------------------------------------------------------------------------------------- About Styles */
 
 #about {
     height: 100%;
@@ -191,8 +191,34 @@
 }
 
 
+/* ----------------------------------------------------------------------------------------------- Gallery Styles */
 
-/* Responsive design - Mobile first  */
+#gallery {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(111, 111, 111);
+    font-family: "Montserrat", sans-serif;
+}
+
+.gallery-container {
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------- Contact Styles */
+
+#contact {
+    height: 50em;
+    width: 100%;
+    background-color: rgb(111, 111, 111);
+    font-family: "Montserrat", sans-serif;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- Responsive design - Mobile first  */
 
 @media screen and (min-width: 580px) {
     .hero-image h1 {
@@ -244,6 +270,18 @@
         max-width: 500px;
     }
 
+    .carousel-item {
+        display: flex!important;
+        justify-content: center;
+        
+    }
+
+    .carousel-item img {
+        height: 48em;
+        width: 60%!important;
+    }
+
+
 }
 
 @media screen and (min-width: 900px) {
@@ -265,6 +303,11 @@
     .about-history {
         padding: 50px 150px 50px 150px;
     }
+
+    .carousel-item img {
+        width: 45%!important;
+    }
+
 }
 
 @media screen and (min-width: 1500px) {
@@ -275,6 +318,10 @@
 
     .divisor {
         height: 2.85em;
+    }
+
+    .carousel-item img {
+        width: 30%!important;
     }
 }
 
