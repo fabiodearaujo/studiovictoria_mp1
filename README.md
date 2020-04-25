@@ -47,7 +47,7 @@ The following technologies and reference material were used to build this projec
 
 ## Testing
 
-I tested the website during all stages of development keeping in mind that I used Google Chrome as main.
+I tested the website during all stages of development keeping in mind that I used Google Chrome as main. I also sent the link to my friends and family to test during this process as I don't have Apple products myself to test.
 
 Testing responsiviness of the website on Desktop and Mobile:
 
@@ -78,8 +78,9 @@ Testing responsiviness of the website on Desktop and Mobile:
 #### Form testing:
 
 I tested the form on Mobile and Desktop:
-- The mailto attibute does not work on Mobile.
+- The mailto attibute does not work on Android Mobile, but works on iPhone.
 - Tested field verificarion in all 4 browsers (Chrome, Firefox, Edge and IE) confirming that on Desktop everything is working as expected, only when all fields are filled correctly the mail application will be triggered with the information brought from the form.
+- On Safari for iPhone the form validation warnings are not aligned into the bubble.
 
 #### Footer link testing:
 
@@ -102,7 +103,7 @@ https://fabioaraujo76.github.io/studiovictoria_mp1/
 ## Credits
 
 ### Media
-- The photos used in this site were obtained from Unsplash (https://unsplash.com/)
+The photos used in this site were obtained from Unsplash (https://unsplash.com/)
 The pictures are credited on the source code and here are the username of the photographers:
 - josh-sorenson
 - hao-rui
