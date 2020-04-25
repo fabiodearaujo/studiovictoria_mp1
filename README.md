@@ -9,6 +9,9 @@ The company name, address and phone used on this website are not real and only f
  I have built this website with a minimalistic aproach keeping a clean look and a intuitive navigation bar on the top and a footer through all the pages.
  I choose for a black and white approach to create the clean contrast without taking the professional look of the business. 
  
+ #### Wireframe
+ I created a Wireframe as initial idea and the project grew as it was being developed and Mentoring meetings. The Original wireframe created with Balsamiq Wireframe 4 can be downloaded here: https://drive.google.com/drive/folders/1DUWDDtpCG4NfTBl6LneKAYksz2wpe8sr?usp=sharing
+ 
 ## Features
 
 - This website was created with a Mobile first approach to a Full HD Desktop screen.
