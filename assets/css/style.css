@@ -36,6 +36,7 @@
 
 }
 
+
 #hero-animation {
     height: 50em;
     width: 100%;
@@ -57,6 +58,13 @@
 
 .logo-wrapper {
     background-color: rgba(157, 157, 157, 0.7);
+}
+
+
+.alert {
+    z-index: 5;
+    text-align: center;
+    margin: 0;
 }
 
 /* ----------------------------------------------------------------------------------------------- Zoom effect idea taken from Love Run website on the course */
@@ -215,6 +223,49 @@
     width: 100%;
     background-color: rgb(111, 111, 111);
     font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    background-image: url("/assets/img/keagan-henman-unsplash.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+
+/* Background overlay */
+.contact-container {
+    text-align: center;
+    width: 100%;
+    padding: 50px 15px;
+    background-color: rgba(157, 157, 157, 0.8);
+    
+}
+
+.contact-container h6 {
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.center-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.form-container {
+    width: 80%;
+    padding-top: 50px;
+    
+}
+
+.form-container input {
+    margin-bottom: 15px;
+}
+
+.form-container textarea {
+    margin-bottom: 50px;
 }
 
 
@@ -281,6 +332,11 @@
         width: 60%!important;
     }
 
+    .form-container {
+        width: 60%;
+                
+    }
+
 
 }
 
@@ -306,6 +362,11 @@
 
     .carousel-item img {
         width: 45%!important;
+    }
+
+    .form-container {
+        width: 50%;
+                
     }
 
 }
