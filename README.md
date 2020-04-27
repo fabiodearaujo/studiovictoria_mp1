@@ -92,6 +92,12 @@ I have tested the links using Mobile and Desktop:
 - Chrome on Desktop everything works correctly (Google Maps open in a new page - Phone ask if you want to call from your own phone )
 - Firefox - Edge and IE opens Google Maps but ask you to link an app to complete the action.
 
+### Known Bugs
+- On Android the form is not opening the email app.
+- Om iPhone the form validation messages, the text is not centralized into the bubble messages.
+- On Internet explorer the cards on About section Bootstrap cards are not rezizing properly.
+- The navigation menu when on mobile view, clicking on the Hamburguer menu seems to be jumpy to open the options.
+
 
 ## Deployment
 
