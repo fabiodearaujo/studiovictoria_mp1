@@ -1,8 +1,53 @@
 /* ----------------------------------------------------------------------------------------------- Logo Font imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
 
+/* ----------------------------------------------------------------------------------------------- Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
 
+/* ----------------------------------------------------------------------------------------------- Return to Top Button */
+.return-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #343a40;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
+}
 
+.return-top i {
+    font-size: 1.2rem;
+}
+
+.return-top:hover {
+    color: white;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color: #000;
+}
+
+/* Make sure sections that have the return button are positioned relatively */
+#about, #gallery, #contact {
+    position: relative;
+}
+
+.return-top:hover {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 1;
+    transform: translateY(-5px);
+}
 
 /* ----------------------------------------------------------------------------------------------- Navbar Styles */
 .logo-font {
@@ -18,7 +63,7 @@
 /* ----------------------------------------------------------------------------------------------- Hero Styles */
 
 .hero-image {
-    background-image: url("https://fabioaraujo76.github.io/studiovictoria_mp1/assets/img/silvestre-leon-unsplash.jpg"); 
+    background-image: url("https://fabiodearaujo.github.io/studiovictoria_mp1/assets/img/silvestre-leon-unsplash.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -204,13 +249,19 @@
 #gallery {
     height: 100%;
     width: 100%;
-    background-color: rgb(111, 111, 111);
+    background-color: rgb(157, 157, 157);
     font-family: "Montserrat", sans-serif;
+}
+
+.gallery-title {
+    text-align: center;
+    padding: 20px;
 }
 
 .gallery-container {
     text-align: center;
     color: #ffffff;
+    padding-bottom: 20px;
 }
 
 
@@ -226,7 +277,7 @@
     color: #ffffff;
     text-align: center;
     display: flex;
-    background-image: url("https://fabioaraujo76.github.io/studiovictoria_mp1/assets/img/keagan-henman-unsplash.jpg"); 
+    background-image: url("./assets/img/keagan-henman-unsplash.jpg"); 
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
@@ -239,7 +290,7 @@
     text-align: center;
     width: 100%;
     padding: 50px 15px;
-    background-color: rgba(157, 157, 157, 0.8);
+    background-color: rgba(187, 187, 187, 0.8);
     
 }
 

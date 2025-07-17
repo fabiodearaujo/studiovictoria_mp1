@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <!-- This is the Milestone 1 project - User Centric Frontend Development -->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Bootstrap 4 CDN Stylesheet -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <!-- Font awesome CDN Stylesheet -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
     <!-- My own CSS Stylesheet -->
-    <link rel="stylesheet" href="https://fabioaraujo76.github.io/studiovictoria_mp1/assets/css/style.css">
-    
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <title>Studio Victoria</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Header where I will place the Navbar for navigation and a small logo -->
     <header>
-        <!-- Cookies Alert banner -->
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-          <strong>Yummy Cookies!</strong> Our website use cookies for a better user experience, by using this website you agree with the use of cookies. 
-          We reasure that no personal data is collected or stored in our servers.
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <!-- Navbar code from Bootstrap documentation and modified to my needs -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-            <a class="navbar-brand logo-font" href="https://fabioaraujo76.github.io/studiovictoria_mp1/index.html">S V</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-center" id="navbarNavDropdown">
-              <ul class="navbar-nav">
-                <li class="nav-item active">
-                  <a class="nav-link" href="https://fabioaraujo76.github.io/studiovictoria_mp1/index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://fabioaraujo76.github.io/studiovictoria_mp1/about.html">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://fabioaraujo76.github.io/studiovictoria_mp1/gallery.html">Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="https://fabioaraujo76.github.io/studiovictoria_mp1/contact.html">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
+      <!-- Sample Website Alert banner -->
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <strong>Portfolio Example:</strong> This is a demonstration website -
+        all business information and services shown are fictional.
+        <button
+          type="button"
+          class="close"
+          data-dismiss="alert"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
     </header>
+    <!-- Navigation bar with links to the sections of the page -->
+    <section id="home">
+      <!-- Navbar code from Bootstrap documentation and modified to my needs -->
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand logo-font" href="index.html">S V</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse navbar-center"
+          id="navbarNavDropdown"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#hero-animation"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
     <!-- Hero section  -->
     <section id="hero-animation">
       <div class="hero-image">
@@ -57,25 +88,293 @@
         </div>
       </div>
     </section>
-     <!-- Footer with location, contact and social media links -->
+    <!-- About section  -->
+    <section id="about">
+      <div class="about-container">
+        <div class="about-history">
+          <h1>Who we are:</h1>
+          <p>
+            The Studio Victoria was founded in 1998 in Dublin serving artists
+            with recording and audio editions. Later it was included services of
+            video recording and editing as also events coverage with audio and
+            video equipments renting.<br />The Studio Victoria became a
+            reference in the Irish market producing very successful pieces of
+            work together with various artists.
+          </p>
+        </div>
+        <div class="my-card-container">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/img/josh-sorenson-unsplash.jpg"
+              alt="Audio&Video-credits-josh-sorenson-unsplash"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Audio & Video</h5>
+              <p class="card-text">
+                With the most updated tech, our studio offers Audio and Video
+                creation, editing and special effects for everyone. There is no
+                small job, from a starting Youtube channel to the most famous
+                artists, each work deserves the best.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/img/hao-rui-unsplash.jpg"
+              alt="StudioRooms-credits-hao-rui-unsplash"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Studio Rooms</h5>
+              <p class="card-text">
+                Our Studio Rooms are well equiped and prepared for your use,
+                silent rooms, big or small, we make sure every artist will have
+                everything they need. The artist only needs to book a room and
+                come over to produce their art work.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="./assets/img/jakob-owens-unsplash.jpg"
+              alt="Events&Equipments-credits-jakob-owens-unsplash"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Events & Equipments</h5>
+              <p class="card-text">
+                For customers that don't want to deal with the art work, our
+                professionals can help to produce the piece os Audio or Video at
+                the client location. We also rent equipments to artists that
+                take their adventure on the open world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="divisor"></div>
+        <a href="#home" class="return-top" aria-label="Return to top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
+    <!-- Gallery section  -->
+    <section id="gallery">
+      <!-- Gallery title with a heading and a subheading -->
+      <div class="gallery-title">
+        <h1>Gallery</h1>
+        <h6>Some of our work</h6>
+      </div>
+      <!-- Gallery container with a carousel to show the images -->
+      <div class="gallery-container">
+        <div
+          id="carousel-fade"
+          class="carousel slide carousel-fade"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/img/cinescope-creative-A5eipZrR7l0-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-cinescope-creative-A5eipZrR7l0-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/frankie-cordoba-4KB8XZ_Q5Qc-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-frankie-cordoba-4KB8XZ_Q5Qc-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/jakob-owens-2JSrtaHFta4-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-jakob-owens-2JSrtaHFta4-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/jakob-owens-qJFDy-Q2f_I-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-jakob-owens-qJFDy-Q2f_I-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/jon-flobrant-fG-6yjUveeI-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-jon-flobrant-fG-6yjUveeI-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/joshua-hanson-73ctnpVWJio-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-joshua-hanson-73ctnpVWJio-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/leo-wieling-bG8U3kaZltE-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-leo-wieling-bG8U3kaZltE-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/luis-quintero-QGNBoSpdvsc-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-luis-quintero-QGNBoSpdvsc-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/nick-moore-5zWN8DTNeVA-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-nick-moore-5zWN8DTNeVA-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/peter-palmer-OQlPahHa7Bc-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-peter-palmer-OQlPahHa7Bc-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/peter-stumpf-FhZEpxtTI_Y-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-peter-stumpf-FhZEpxtTI_Y-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/phil-sheldon-abipp-RNlVIhXrz-Y-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-phil-sheldon-abipp-RNlVIhXrz-Y-unsplash"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/img/thisisengineering-raeng-cP12Rfh97Q4-unsplash.jpg"
+                class="d-block w-100"
+                alt="credits-thisisengineering-raeng-cP12Rfh97Q4-unsplash"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouse-fade"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carousel-fade"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <a href="#home" class="return-top" aria-label="Return to top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
+    <!-- Contact section  -->
+    <section id="contact">
+      <div class="contact-container">
+        <h1>Let's make Art?</h1>
+        <h6>
+          We will get in touch to discuss the best solution and help you achieve
+          your Go.
+        </h6>
+        <div class="center-form">
+          <form
+            class="form-container"
+            method="GET"
+            target="_blank"
+            action="mailto:info@studiovictoria.test"
+            enctype="text/plain"
+          >
+            <input
+              type="text"
+              name="subject"
+              id="fullname"
+              class="form-control"
+              placeholder="Name"
+              required
+            />
+            <input
+              type="email"
+              name="cc"
+              id="emailaddress"
+              class="form-control"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              name="body"
+              id="projectsummary"
+              rows="5"
+              class="form-control"
+              placeholder="Project Description"
+              required
+            ></textarea>
+            <div class="form-row text-center">
+              <div class="col">
+                <input
+                  type="submit"
+                  class="btn btn-dark"
+                  value="Yes, Let's do it!"
+                />
+              </div>
+            </div>
+          </form>
+        </div>
+        <a href="#home" class="return-top" aria-label="Return to top">
+          <i class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </section>
     <footer>
       <div class="footer-container">
         <div class="footer-contact">
-            <a href="https://goo.gl/maps/S61HPFTVdbexR2d97" target="_blank"><i class="fas fa-map-marker-alt"></i> Grafton Street - Dublin</a><br>
-            <a href="tel:555-555-5555"><i class="fas fa-phone"></i> 555-555-5555</a>
+          <a href="https://goo.gl/maps/S61HPFTVdbexR2d97" target="_blank"
+            ><i class="fas fa-map-marker-alt"></i> Grafton Street - Dublin</a
+          ><br />
+          <a href="tel:555-555-5555"
+            ><i class="fas fa-phone"></i> 555-555-5555</a
+          >
         </div>
         <div class="footer-social">
           <div class="social-element">
-            <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"></i>  Facebook</a>
+            <a href="http://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-square"></i> Facebook</a
+            >
           </div>
           <div class="social-element">
-            <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i>  Twitter</a><br>
+            <a href="http://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter-square"></i> Twitter</a
+            ><br />
           </div>
           <div class="social-element">
-            <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i>  Instagram</a>
+            <a href="http://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
           </div>
           <div class="social-element">
-                <a href="http://www.youtube.com" target="_blank">  <i class="fab fa-youtube-square"></i>  Youtube</a>
+            <a href="http://www.youtube.com" target="_blank">
+              <i class="fab fa-youtube-square"></i> Youtube</a
+            >
           </div>
         </div>
       </div>
@@ -85,8 +384,20 @@
     </footer>
 
     <!-- Bootstrap 4 JS CDN so Components can work-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
