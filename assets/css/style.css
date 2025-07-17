@@ -1,8 +1,10 @@
 /* ----------------------------------------------------------------------------------------------- Logo Font imported from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat&display=swap');
 
-
-
+/* ----------------------------------------------------------------------------------------------- Smooth Scroll Behavior */
+html {
+    scroll-behavior: smooth;
+}
 
 /* ----------------------------------------------------------------------------------------------- Navbar Styles */
 .logo-font {
@@ -204,13 +206,19 @@
 #gallery {
     height: 100%;
     width: 100%;
-    background-color: rgb(111, 111, 111);
+    background-color: rgb(157, 157, 157);
     font-family: "Montserrat", sans-serif;
+}
+
+.gallery-title {
+    text-align: center;
+    padding: 20px;
 }
 
 .gallery-container {
     text-align: center;
     color: #ffffff;
+    padding-bottom: 20px;
 }
 
 
@@ -239,7 +247,7 @@
     text-align: center;
     width: 100%;
     padding: 50px 15px;
-    background-color: rgba(157, 157, 157, 0.8);
+    background-color: rgba(187, 187, 187, 0.8);
     
 }
 
