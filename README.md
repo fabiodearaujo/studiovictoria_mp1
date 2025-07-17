@@ -106,7 +106,7 @@ All source code and files are stored on the GitHub repository (https://github.co
 All Development was done localy in my computer and sending the files to Github using Git Bash (https://git-scm.com/)
 
 The project was deployed on Github Pages and can be accessed by the following link:
-https://fabioaraujo76.github.io/studiovictoria_mp1/
+./
 
 
 ## Credits
