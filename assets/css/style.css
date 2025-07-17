@@ -9,27 +9,41 @@ html {
 /* ----------------------------------------------------------------------------------------------- Return to Top Button */
 .return-top {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #88a3bd;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #343a40;
+    color: white;
     text-decoration: none;
-    margin: 2rem;
     transition: all 0.3s ease;
-    opacity: 0.7;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 10;
 }
 
 .return-top i {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.return-top span {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
 }
 
 .return-top:hover {
-    color: #637d98;
+    color: white;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    background-color: #000;
+}
+
+/* Make sure sections that have the return button are positioned relatively */
+#about, #gallery, #contact {
+    position: relative;
+}
+
+.return-top:hover {
+    color: #ffffff;
     text-decoration: none;
     opacity: 1;
     transform: translateY(-5px);
