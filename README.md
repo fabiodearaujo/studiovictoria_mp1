@@ -102,11 +102,11 @@ I have tested the links using Mobile and Desktop:
 ## Deployment
 
 All Development was done using Microsoft Visual Studio Code (https://code.visualstudio.com/)
-All source code and files are stored on the GitHub repository (https://github.com/fabioaraujo76/studiovictoria_mp1)
+All source code and files are stored on the GitHub repository (https://github.com/fabiodearaujo/studiovictoria_mp1)
 All Development was done localy in my computer and sending the files to Github using Git Bash (https://git-scm.com/)
 
 The project was deployed on Github Pages and can be accessed by the following link:
-./
+[Studio Victoria](https://fabiodearaujo.github.io/studiovictoria_mp1/)
 
 
 ## Credits
